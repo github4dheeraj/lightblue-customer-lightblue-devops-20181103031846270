@@ -1,6 +1,6 @@
 package customer;
 
-public class Customers {
+public class Customer {
 
 	private String _id;
 	private String _rev;
