@@ -146,8 +146,5 @@ public class CustomerController {
             logger.error("Error creating customer: " + ex);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error creating customer: " + ex.toString());
         }
-        
     }
-
 }
-
